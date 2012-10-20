@@ -12,7 +12,14 @@
 	$j = 'falskt';
 
 	echo $result = 10 > 12 ? $i : $j;
+	echo "<br />";
 
+
+	// Lägger till basename()-funktion från stationär dator
+	$url = "http://localhost/webbplatser/github/php/";
+	echo basename($url);
+	echo "<br />";
+	echo basename($_SERVER['SCRIPT_FILENAME'] );
 
  ?>
 </body>
