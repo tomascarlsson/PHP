@@ -47,6 +47,16 @@
 
 
 
+	echo "<br /><br />"
+	//##### Skapar en klass från laptop #####
+	class Tcm1_Employee{
+		//properties
+		public function work(){ echo "I am working";}
+	}
+	$sven = new Tcm1_Employee();
+	$sven->work();			// -> pekar från ett objekt till funktionen
+	echo ("<br />");
+	Tcm1_Employee::work(); // :: pekar direkt fån klassen till funktionen
 
 
  ?>
